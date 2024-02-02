@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Manrope 700";
+  src: local(), url("../fonts/Manrope/static/Manrope-Bold.ttf") format("woff"), url("../fonts/Manrope/static/Manrope-Bold.ttf") format("wof2f");
+}
+@font-face {
+  font-family: "Manrope 800";
+  src: local(), url("../fonts/Manrope/static/Manrope-ExtraBold.ttf") format("woff"), url("../fonts/Manrope/static/Manrope-ExtraBold.ttf") format("wof2f");
+}
+@font-face {
+  font-family: "Manrope 600";
+  src: local(), url("../fonts/Manrope/static/Manrope-SemiBold.ttf") format("woff"), url("../fonts/Manrope/static/Manrope-SemiBold.ttf") format("wof2f");
+}
+@font-face {
+  font-family: "Manrope 500";
+  src: local(), url("../fonts/Manrope/static/Manrope-Medium.ttf") format("woff"), url("../fonts/Manrope/static/Manrope-Medium.ttf") format("wof2f");
+}
+@font-face {
+  font-family: "Manrope 400";
+  src: local(), url("../fonts/Manrope/static/Manrope-Regular.ttf") format("woff"), url("../fonts/Manrope/static/Manrope-Regular.ttf") format("wof2f");
+}
+@font-face {
+  font-family: "Manrope 300";
+  src: local(), url("../fonts/Manrope/static/Manrope-Light.ttf") format("woff"), url("../fonts/Manrope/static/Manrope-Light.ttf") format("wof2f");
+}
+@font-face {
+  font-family: "Manrope 200";
+  src: local(), url("../fonts/Manrope/static/Manrope-ExtraLight.ttf") format("woff"), url("../fonts/Manrope/static/Manrope-ExtraLight.ttf") format("wof2f");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(36, 35, 35);
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 10px;
+}/*# sourceMappingURL=main.css.map */
