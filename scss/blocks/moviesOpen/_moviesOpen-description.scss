@@ -1,0 +1,311 @@
+.description{
+    margin-top: 100px;
+    padding-right: 0px;
+    display: flex;
+}
+
+
+
+
+.description__left--one{
+    background-color: #262626;
+    width: 1050px;
+    height: 160px;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+}
+.description__left--one-items-p1{
+    color: #999999;
+    margin-bottom: 15px;
+    font-family: "Manrope 500";
+}
+.description__left--one-items-p2{
+    color: white;
+    font-family: "Manrope 500";
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 27px;
+}
+.description__left--two{
+    background-color: #262626;
+    width: 1050px;
+    // height: 160px;
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px; 
+    border-radius: 15px;
+    padding-bottom: 50px;
+}
+.description__left--two-head-p{
+    color: #999999;
+    margin-bottom: 15px;
+    font-family: "Manrope 500";
+}
+.description__left--two-head{
+    display: flex;
+    align-items: center;
+}
+.description__left--two-head-img{
+    margin-left: 800px;
+}
+.description__left--two-bottom{
+    margin-top: 30px;
+}
+.description__left--three{
+    background-color: #262626;
+    width: 1050px;
+    // height: 160px;
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px; 
+    border-radius: 15px;
+    padding-bottom: 50px; 
+}
+.description__left--three-head{
+    display: flex;
+    align-items: center;
+}
+.description__left--three-head-p1{
+    color: #999999;
+    margin-bottom: 15px;
+    font-family: "Manrope 500";  
+}
+.description__left--three-head-button{
+    width: 204px;
+    height: 58px;
+    border-radius: 8px;
+    border: 1px;
+    gap: 4px;
+    padding: 14px 16px 14px 16px;
+    background-color: #141414;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 690px;
+}
+.description__left--three-bottom{
+    display: flex;
+    margin-top: 40px;
+}
+.description__left--three-bottom-left{
+    width: 468.5px;
+    background-color: #0F0F0F;
+    height: 265px;
+    border-radius: 12px;
+    padding-left: 40px;
+    padding-top: 40px;
+    margin-right: 20px;
+}
+.description__left--three-bottom-left-head{
+    display: flex;
+}
+.description__left--three-bottom-left-head-p1{
+    width: 200.38px;
+    font-family: "Manrope 500";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+.description__left--three-bottom-left-head-img{
+    margin-right: 40px;
+    margin-top: 9px;
+}
+.description__left--three-bottom-left-bottom{
+    width: 388.5px;
+}
+.description__left--three-bottom-left-bottom-p1{
+    font-family: "Manrope 500";
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #999999;
+    margin-top: -20px;
+}
+.description__left--three-bottom-left-bottom-p2{
+    font-family: "Manrope 500";
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #999999;
+    margin-top: 20px;
+}
+.description__left--three-img{
+    margin-top: 40px;
+    margin-left: 360px;
+}
+.description__right{
+    width: 499px;
+    height: 900px;
+    padding-top: 54.5px;
+    padding-left: 53px;
+    background-color: #262626;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.description__right--items{
+    flex-direction: column;
+}
+.description__right--items-year-p1{
+    margin-left: 3px;
+    font-family: "Manrope 500";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #999999;
+}
+.A{
+    display: flex;
+}
+.description__right--items-year-p2{
+    color: white;
+    font-family: "Manrope 500";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+.description__right--items-lan{
+    margin-top: 30px;
+}
+
+.description__right--items-lan-head{
+    display: flex;
+}
+.description__right--items-lan-head-p{
+    margin-left: 3px;
+    color: #999999;
+    font-family: "Manrope 500";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+.description__right--items-lan-buttons-button{
+    background-color: #0F0F0F;
+    color: white;
+    width: 90px;
+    height: 43px;
+    border-radius: 8px;
+    padding: 8px, 14px, 8px, 14px;
+    gap: 10px;
+    box-shadow: none;
+    border-style: none;
+    font-family: "Manrope 500";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin-right: 10px;
+}
+.description__right--items-lan-buttons-button1{
+    background-color: #0F0F0F;
+    color: white;
+    width: 90px;
+    height: 43px;
+    border-radius: 8px;
+    padding: 8px, 14px, 8px, 14px;
+    gap: 10px;
+    box-shadow: none;
+    border-style:none ;
+    font-family: "Manrope 500";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.description__right--items-ratings-head{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
+.description__right--items-ratings-head-p{
+    margin-left: 3px;
+    color: #999999;
+    font-family: "Manrope 500";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+.description__right--items-gerners-head{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
+.description__right--items-gerners-head-p{
+    margin-left: 3px;
+    color: #999999;
+    font-family: "Manrope 500";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+.description__right--items-gerners-buttons-button1{
+    background-color: #0F0F0F;
+    color: white;
+    width: 84px;
+    height: 43px;
+    border-radius: 8px;
+    padding: 8px, 14px, 8px, 14px;
+    gap: 10px;
+    box-shadow: none;
+    border-style: none;
+    font-family: "Manrope 500";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin-right: 10px; 
+}
+.description__right--items-gerners-buttons-button2{
+    background-color: #0F0F0F;
+    color: white;
+    width: 117px;
+    height: 43px;
+    border-radius: 8px;
+    padding: 8px, 14px, 8px, 14px;
+    gap: 10px;
+    box-shadow: none;
+    border-style: none;
+    font-family: "Manrope 500";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin-right: 10px; 
+}
+.description__right--items-gerners-director{
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
+.description__right--items-gerners-director-p{
+    margin-left: 3px;
+    color: #999999;
+    font-family: "Manrope 500";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;  
+}
+.description__right--items-gerners-music{
+    margin-top: 30px;
+    margin-bottom: 14px; 
+}
+.description__right--items-gerners-music-p{
+    margin-left: 3px;
+    color: #999999;
+    font-family: "Manrope 500";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px; 
+}
+
+
+
+
+
+
+
+// 84 117
+
