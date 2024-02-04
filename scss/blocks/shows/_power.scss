@@ -1,0 +1,328 @@
+.power {
+    width: 1,597px;
+    height: 3,298px;
+    padding: 50px;
+    border-radius: 12px;
+    border: solid ;
+    border: 1px;
+    gap: 100px;
+    border: solid 2px #262626;
+    margin-top: 200px;
+
+    button {
+        width: 112px;
+        height: 50px;
+        padding: 10px, 24px, 10px, 24px;
+        border-radius: 8px;
+        background: red;
+        gap: 10px;
+        font-family: Manrope;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0em;
+        color: white;
+        text-align: center;
+    }
+
+    .card__cards {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+
+        h4 {
+            font-family: Manrope;
+            font-size: 38px;
+            font-weight: 700;
+            line-height: 57px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: white;
+
+        }
+
+        .card__cards--center {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 257px;
+            height: 88px;
+            padding: 16px;
+            border-radius: 12px;
+            border: 1px;
+            background: black;
+            gap: 16px;
+        }
+    }
+
+    .card__cards--center-day {
+        width: 56px;
+        height: 56px;
+        padding: 14px;
+        border-radius: 8px;
+        border: 1px;
+        background: #1f1f1f;
+        gap: 10px;
+        text-align: center;
+
+        .bx {
+            transform: scale(2);
+            color: white;
+        }
+    }
+
+    .beken-ass {
+        width: 23px;
+        height: 4px;
+        border-radius: 100px;
+        background: red;
+    }
+
+    .beken {
+        width: 16.33px;
+        height: 4px;
+        border-radius: 100px;
+        background: #1f1f1f;
+    }
+
+    .power__secen__end {
+        width: 275px;
+        height: 342px;
+        padding: 30px;
+        border-radius: 12px;
+        background: #1f1f1f;
+        border: 1px;
+    }
+    .power__tate{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 60px;
+    }
+   
+    .power__secen{
+        margin-top: 57px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .power__dnt {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        h6 {
+            font-family: Manrope;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 27px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: white;
+        }
+        .bx{
+            transform: scale(2);
+            color: white;
+        }
+    }
+    .power__arisn{
+        margin-top: 100px;
+    }
+    .power__tate__lori{
+        width: 351px;
+        height: 378px;
+        padding: 30px;
+        border-radius: 12px;
+        background: #1f1f1f;
+        border: 1px;
+        
+    }
+    .power__teta--laa{
+        width: 86px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        padding: 0px 10px;
+        border-radius: 5px;
+        background: red;
+        gap: 10px;
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+    }
+    .power__tate--soft-xak{
+        gap: 20px;
+        display: flex;        
+        align-items: center;
+        h6{
+            font-family: Manrope;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: white;
+        }
+        .bx{
+            transform: scale(2);
+            color: white;
+            padding: 0px 180px;
+        }
+    }
+    .power__origin{
+        margin-top: 80px;
+    }
+    .power__dokum{
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .power__dokum--list{
+        width: 359px;
+        height: 444px;
+        padding: 20px;
+        border-radius: 12px;
+        border: 1px;
+        background: #1f1f1f;
+        gap: 20px;
+    } 
+    .power__sezon{
+        display: flex;
+        align-items: center;
+        width: 112px;
+        height: 36px;
+        padding: 6px, 10px, 6px, 6px;
+        border-radius: 51px;
+        background: black;
+        border: 1px;
+        gap: 2px;
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #999;        
+        .bx{
+            transform: scale(2);
+            color: #999;
+            padding: 0px 10px;
+        }
+    }
+    .power__film{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .power__sezon--hp{
+        display: flex;
+        align-items: center;
+        width: 113px;
+        height: 36px;
+        padding: 6px, 10px, 6px, 6px;
+        border-radius: 51px;
+        border: 1px;
+        gap: 4px;
+        background: black;
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #999; 
+        .bx{
+            transform: scale(2);
+            color: #999;
+            padding: 0px 10px;
+        }
+    }
+    .power__senu{
+        margin-top: 90px;
+    }
+    .power__mek{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 60px;
+    }
+    .power__futec{
+        margin-top: 80px;
+    }
+    .powert__sets--ted-kok{
+        width: 359px;
+        height: 500px;
+        padding: 20px;
+        border-radius: 12px;
+        border: 1px;
+        background: #1f1f1f;
+        gap: 20px;
+        
+    }
+    .power__sets--ted{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 60px;
+    }
+    .powert__lete{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .power__folo{
+        display: flex;
+        align-items: center;
+        width: 111px;
+        height: 36px;
+        padding: 6px, 10px, 6px, 6px;
+        border-radius: 51px;
+        border: 1px;
+        background: black;
+        gap: 2px;
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #999;
+        .bx{
+            transform: scale(2);
+            color: #999;
+            padding: 0px 10px;
+        }
+    }
+    .power__kolo{
+        display: flex;
+        align-items: center;
+        width: 144px;
+        height: 33px;
+        padding: 6px, 10px, 6px, 10px;
+        border-radius: 51px;
+        border: 1px;
+        background: black;
+        gap: 4px;
+        font-family: Manrope;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+        .bx{
+            transform: scale(2);
+            color: #999;
+            padding: 0px 10px;
+        }
+        
+    }
+}
