@@ -1,0 +1,45 @@
+.table{
+    margin-top: 100px;
+    // tr{
+    //     border: 1px solid #262626;
+    // }
+    table{
+        margin-top: 60px;
+    }
+    h2{
+        font-family: 'Manrope';
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 29.2px;
+        color: #fff;
+    }
+    p{
+        font-family: 'Manrope';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: #999;
+        margin-top: 20px;
+    }
+    th{
+        width: 25%;
+        background-color: #0f0f0f;
+        border: 1px solid #262626;
+        padding: 30px;
+        font-family: 'Manrope';
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #fff;
+    }
+    td{
+        width: 25%;
+        border: 1px solid #262626;
+        padding: 30px;
+        font-family: 'Manrope';
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #999;  
+    }
+}
