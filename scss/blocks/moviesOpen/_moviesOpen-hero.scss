@@ -1,0 +1,139 @@
+.hero{
+h1{
+    color: white;
+    font-family: "Manrope 500";
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 57px;
+    margin-left: 120px;
+    margin-bottom: 15px;
+}
+
+
+.hero__content{
+    margin-top: -220px;
+    margin-left: 250px;
+    flex-direction: column;
+}
+
+p{
+    color:#999999;
+    gap: 30px;
+}
+.hero__content--buttons-play{
+    background-color: red;
+    color: white;
+    width: 157px;
+    height: 57px;
+    border-radius: 8px;
+    gap: 4px;
+    align-items: center;
+}
+// .hero__content--buttons-voice{
+//     height: 57px;
+//     width: 57px;
+// }
+// .hero__content--buttons-like-img{
+//     height: 57px;
+//     width: 57px;
+// }
+// .hero__content--buttons-add-plus{
+//     height: 57px;
+//     width: 57px;
+// }
+// .hero__content--buttons{
+//     margin-left: 300px;
+//     margin-top: 15px;
+// }
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+    h1{
+        font-size: 38px;
+        color: white;
+        font-family: "Manrope 500";
+        font-weight: 700;
+        line-height: 57px;
+        text-align: center;
+        margin-left: -300px;
+    }
+    p{
+        font-family: "Manrope 500";
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        align-items: center;
+        color: #999999;
+    }
+    button{
+        background-color: #e50000;
+        border-radius: 8px;
+        border: none;
+        padding: 14px 24px;
+        font-family: "Manrope 500";
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27.54px;
+        color: white;
+        // margin-left: -350px;
+    }
+    .bx{
+        transform: scale(1.5);
+        padding: 0;
+        margin: 0;
+        color: white;
+        align-items: center;
+        // transform: translate(-15px);
+        // color: red;
+        // margin-left: -15px;
+    }
+    .icon{
+        width: 56px;
+        height: 56px;
+        border-radius: 8px;
+        border: 1px solid #262626;
+        // padding: 10px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .hero__botttom--icon{
+        width: 365px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 200px;
+        margin-top: 30px;
+    }
+
+    .hero__botttom{
+        margin-top: -180px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
