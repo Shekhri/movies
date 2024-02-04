@@ -1,0 +1,547 @@
+.seasons {
+    padding-top: 150px;
+
+    h3 {
+        color: white;
+        font-family: 'Manrope';
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 36px;
+    }
+
+    p:nth-child(1) {
+        font-family: 'Manrope';
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 36px;
+        color: white;
+    }
+
+    small {
+        font-family: 'Manrope';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 27px;
+        color: #999;
+        margin-left: 20px;
+        padding: 0;
+    }
+
+    .seasons__left {
+        background-color: #262626;
+        border-radius: 12px;
+        padding: 20px;
+        width: 70%;
+    }
+    .seasons__left--top{
+        width: 100%;
+        background-color: #0f0f0f;
+        border-radius: 12px;
+        border: 1px;
+        // padding: 24px 50px;
+        display: flex;
+        // flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        // margin-top: 30px;
+    }
+    .seasons__left--box{
+        width: 100%;
+    }
+    .seasons__left--top1 {
+        background-color: #0f0f0f;
+        border-radius: 12px;
+        border: 1px;
+        padding: 24px 30px;
+        display: flex;
+        // flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .center{
+        background-color: #0f0f0f;
+        border-radius: 12px;
+        border: 1px;
+        padding: 24px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;   
+    }
+   
+
+    .seasons__left--top-left {
+        width: 30%;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+small{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+    }
+
+    .seasons__left--top-icon {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        border: 1px solid gray;
+        // padding: 10px;
+        background-color: #262626;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bx {
+        color: white;
+        transform: scale(1.5);
+    }
+
+    hr {
+        width: 100%;
+        background-color: #262626;
+        margin: 40px 0;
+    }
+
+    h3:nth-child(2) {
+        font-family: 'Manrope';
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    h2 {
+        font-family: 'Manrope';
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 45px;
+        color: #999;
+    }
+
+    .seasons__left--box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .box__right{
+       width: 70%;
+    }
+    .box__right--top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    p {
+        font-family: 'Manrope';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: #999;
+        width: 100%;
+        padding: 0;
+        // margin-top: 15px;
+    }
+
+    .time {
+        width: 98px;
+        height: 40px;
+        border-radius: 8px;
+        border: 1px solid #262626;
+        padding: 8px 10px;
+        background-color: #141414;
+        margin-left: 10px;
+        color: #999;
+
+        i {
+            color: #999;
+            margin-right: 5px;
+        }
+    }
+    .seasons__right{
+        background-color: #262626;
+        border-radius: 12px;
+        padding: 20px;
+        width: 29%;
+        small{
+            font-family: 'Manrope';
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 27px;
+            color: #999;
+            margin-top: 20px;
+            i{
+                color: #999;
+                transform: scale(1.5);
+                margin-right: 10px;
+            }
+        }
+        h2{
+            font-family: 'Manrope';
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 30px;
+            color: white;
+            margin-bottom: 20px;
+            margin-left: 10px;
+            margin-top: 20px;
+        }
+        .languages{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        // .languages:nth-child(2) {
+        //     display: flex;
+        //     justify-content: space-between;
+        //     align-items: center;
+        //     flex-wrap:nowrap;
+        //     margin-bottom: 20px;
+        //     background-color: red;
+        // }
+        p{
+            padding: 8px 10px;
+            font-family: 'Manrope';
+            font-weight: 500;
+            font-size: 16px;
+            // line-height: 27px;
+            background-color: #141414;
+            border-radius: 6px;
+            color: white;
+              margin-top: 20px;
+              width: auto;
+        }
+    }
+    .card{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+margin-top: 20px;
+margin-bottom: 20px;
+    }
+    .box{
+        width: 150.5px;
+        background-color: #141414;
+        border: 1px solid gray;
+        border-radius: 8px;
+        padding: 16px;
+        h2{
+            font-family: 'Manrope';
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 30px;
+            margin: 0;
+            padding: 0;
+        }
+        .icon{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100px;
+            i{
+                color: red;
+                transform: scale(1.2);
+                margin: 0;
+                padding: 0;
+            }
+            i:nth-child(10) {
+                color: gray;
+            }
+            p{
+                font-family: 'Manrope';
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 30px;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+    .director-box{
+        width: 100%;
+        background-color: #141414;
+        border: 1px solid gray;
+        border-radius: 8px;
+        padding: 16px;
+        margin-bottom: 25px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .director-box-right{
+            text-align: start;
+            width: 80%;
+        }
+        h3{
+            color: #fff;
+            font-family: 'Manrope';
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 27px;
+            margin-left: 20px;
+        }
+    }
+.seasons__top{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+.seasons__bottom--box{
+    background-color: #262626;
+    border-radius: 12px;
+    padding: 50px;
+    width: 70%;
+    margin-top: 30px;
+    small{
+        font-family: 'Manrope';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 27px;
+        color: #999;
+        margin-top: 20px;
+       margin-left: 0px;
+    }
+    p{
+        color: #fff;
+        font-family: 'Manrope';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 27px;
+        margin-top: 15px;
+    }
+    .top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;    
+    }
+    .bx{
+        transform: scale(3.5);
+        color: gray;
+        margin-left: 40px;
+    }
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    img{
+        width: 87px;
+        height: 89px;
+    }
+}
+}
+@media only screen and (max-width:1200px) {
+   .seasons{
+    .seasons__left--top-left {
+        width: 70%;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    img{
+        width: 71px;
+        height: 69px;
+    }
+    img:nth-child(8) {
+        display: none;
+    }
+    img:nth-child(7) {
+        display: none;
+    }
+    img:nth-child(6) {
+        display: none;
+    }
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+        }
+        .box{
+            width: 100%;
+            background-color: #262626;
+            border: 1px solid gray;
+            border-radius: 8px;
+            padding: 25px;
+            margin-top: 20px;
+            h2{
+                font-family: 'Manrope';
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 30px;
+                margin: 0;
+                padding: 0;
+            }
+            .icon{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100px;
+                i{
+                    color: red;
+                    transform: scale(1.2);
+                    margin: 0;
+                    padding: 0;
+                }
+                i:nth-child(10) {
+                    color: gray;
+                }
+                p{
+                    font-family: 'Manrope';
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 30px;
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+        }
+   }
+}
+@media only screen and (max-width:880px) {
+    .seasons{
+        .seasons__top{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items:flex-start;
+        }
+        .seasons__right{
+            background-color: #262626;
+            border-radius: 12px;
+            padding: 20px;
+            width: 100%;
+            margin-top: 50px;
+        }
+        .seasons__left--top-left {
+            width: 40%;
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+    }
+    .seasons__left {
+        background-color: #262626;
+        border-radius: 12px;
+        padding: 20px;
+        width: 100%;
+    }
+    .seasons__bottom--box{
+        background-color: #262626;
+        border-radius: 12px;
+        padding: 50px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    // .director{
+    //     display: flex;
+    // }
+    .director-box{
+        width: 40%;
+        background-color: #141414;
+        border: 1px solid gray;
+        border-radius: 8px;
+        padding: 16px;
+        margin-bottom: 25px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .director-box-right{
+            text-align: start;
+            width: 80%;
+        }
+        h3{
+            color: #fff;
+            font-family: 'Manrope';
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 27px;
+            margin-left: 20px;
+        }
+    }
+    .images{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+        img{
+            width: 71px;
+            height: 69px;
+        }
+        img:nth-child(8) {
+            display: none;
+        }
+        img:nth-child(7) {
+            display: none;
+        }
+        img:nth-child(6) {
+            display: none;
+        }
+    }
+    }
+}
+@media only screen and (max-width:690px) {
+    .seasons{
+p{
+    display: none;
+}
+.seasons__left--box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    img{
+        width: 71px;
+        height: 69px;
+    }
+    img:nth-child(8) {
+        display: none;
+    }
+    img:nth-child(7) {
+        display: none;
+    }
+    img:nth-child(6) {
+        display: none;
+    }
+    img:nth-child(5) {
+        display: none;
+    }
+}
+.director-box{
+    width: 100%;
+}
+    }
+    // .center{
+    //     background-color: #0f0f0f;
+    //     border-radius: 12px;
+    //     border: 1px;
+    //     padding: 24px 30px;
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: space-between;
+    //     align-items: center;
+    //     margin-top: 30px;   
+    // }
+}

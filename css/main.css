@@ -51,12 +51,888 @@ a {
 }
 
 body {
-  background-color: rgb(36, 35, 35);
+  margin: 0;
+  padding: 0;
+  background-color: #141414;
 }
 
 .container {
   width: 100%;
-  max-width: 1280px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 0 10px;
+}
+
+.hero .hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero h1 {
+  font-size: 38px;
+  color: white;
+  font-family: "Manrope";
+  font-weight: 700;
+  line-height: 57px;
+  text-align: center;
+}
+.hero p {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  align-items: center;
+  color: white;
+}
+.hero button {
+  background-color: #e50000;
+  border-radius: 8px;
+  border: none;
+  padding: 14px 24px;
+  font-family: "Manrope";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27.54px;
+  color: white;
+}
+.hero .bx {
+  transform: scale(1.5);
+  padding: 0;
+  margin: 0;
+  color: white;
+  align-items: center;
+}
+.hero .icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+  border: 1px solid #262626;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .hero__botttom--icon {
+  width: 365px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 38%;
+  margin-top: 30px;
+}
+.hero .hero__botttom {
+  margin-top: -280px;
+}
+
+@media only screen and (max-width: 690px) {
+  .hero p {
+    display: none;
+  }
+}
+.seasons {
+  padding-top: 150px;
+}
+.seasons h3 {
+  color: white;
+  font-family: "Manrope";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36px;
+}
+.seasons p:nth-child(1) {
+  font-family: "Manrope";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+  color: white;
+}
+.seasons small {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  color: #999;
+  margin-left: 20px;
+  padding: 0;
+}
+.seasons .seasons__left {
+  background-color: #262626;
+  border-radius: 12px;
+  padding: 20px;
+  width: 70%;
+}
+.seasons .seasons__left--top {
+  width: 100%;
+  background-color: #0f0f0f;
+  border-radius: 12px;
+  border: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.seasons .seasons__left--box {
+  width: 100%;
+}
+.seasons .seasons__left--top1 {
+  background-color: #0f0f0f;
+  border-radius: 12px;
+  border: 1px;
+  padding: 24px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.seasons .center {
+  background-color: #0f0f0f;
+  border-radius: 12px;
+  border: 1px;
+  padding: 24px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.seasons .seasons__left--top-left {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.seasons .seasons__left--top-left small {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+}
+.seasons .seasons__left--top-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  background-color: #262626;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seasons .bx {
+  color: white;
+  transform: scale(1.5);
+}
+.seasons hr {
+  width: 100%;
+  background-color: #262626;
+  margin: 40px 0;
+}
+.seasons h3:nth-child(2) {
+  font-family: "Manrope";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+}
+.seasons h2 {
+  font-family: "Manrope";
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #999;
+}
+.seasons .seasons__left--box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.seasons .box__right {
+  width: 70%;
+}
+.seasons .box__right--top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.seasons p {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #999;
+  width: 100%;
+  padding: 0;
+}
+.seasons .time {
+  width: 98px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #262626;
+  padding: 8px 10px;
+  background-color: #141414;
+  margin-left: 10px;
+  color: #999;
+}
+.seasons .time i {
+  color: #999;
+  margin-right: 5px;
+}
+.seasons .seasons__right {
+  background-color: #262626;
+  border-radius: 12px;
+  padding: 20px;
+  width: 29%;
+}
+.seasons .seasons__right small {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  color: #999;
+  margin-top: 20px;
+}
+.seasons .seasons__right small i {
+  color: #999;
+  transform: scale(1.5);
+  margin-right: 10px;
+}
+.seasons .seasons__right h2 {
+  font-family: "Manrope";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: white;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.seasons .seasons__right .languages {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.seasons .seasons__right p {
+  padding: 8px 10px;
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #141414;
+  border-radius: 6px;
+  color: white;
+  margin-top: 20px;
+  width: auto;
+}
+.seasons .card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.seasons .box {
+  width: 150.5px;
+  background-color: #141414;
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 16px;
+}
+.seasons .box h2 {
+  font-family: "Manrope";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+}
+.seasons .box .icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+}
+.seasons .box .icon i {
+  color: red;
+  transform: scale(1.2);
+  margin: 0;
+  padding: 0;
+}
+.seasons .box .icon i:nth-child(10) {
+  color: gray;
+}
+.seasons .box .icon p {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+}
+.seasons .director-box {
+  width: 100%;
+  background-color: #141414;
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.seasons .director-box .director-box-right {
+  text-align: start;
+  width: 80%;
+}
+.seasons .director-box h3 {
+  color: #fff;
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  margin-left: 20px;
+}
+.seasons .seasons__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.seasons .seasons__bottom--box {
+  background-color: #262626;
+  border-radius: 12px;
+  padding: 50px;
+  width: 70%;
+  margin-top: 30px;
+}
+.seasons .seasons__bottom--box small {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  color: #999;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+.seasons .seasons__bottom--box p {
+  color: #fff;
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  margin-top: 15px;
+}
+.seasons .seasons__bottom--box .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.seasons .seasons__bottom--box .bx {
+  transform: scale(3.5);
+  color: gray;
+  margin-left: 40px;
+}
+.seasons .images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.seasons .images img {
+  width: 87px;
+  height: 89px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .seasons .seasons__left--top-left {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .seasons .images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .seasons .images img {
+    width: 71px;
+    height: 69px;
+  }
+  .seasons .images img:nth-child(8) {
+    display: none;
+  }
+  .seasons .images img:nth-child(7) {
+    display: none;
+  }
+  .seasons .images img:nth-child(6) {
+    display: none;
+  }
+  .seasons .card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .seasons .box {
+    width: 100%;
+    background-color: #262626;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 25px;
+    margin-top: 20px;
+  }
+  .seasons .box h2 {
+    font-family: "Manrope";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  .seasons .box .icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+  }
+  .seasons .box .icon i {
+    color: red;
+    transform: scale(1.2);
+    margin: 0;
+    padding: 0;
+  }
+  .seasons .box .icon i:nth-child(10) {
+    color: gray;
+  }
+  .seasons .box .icon p {
+    font-family: "Manrope";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .seasons .seasons__top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .seasons .seasons__right {
+    background-color: #262626;
+    border-radius: 12px;
+    padding: 20px;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .seasons .seasons__left--top-left {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .seasons .seasons__left {
+    background-color: #262626;
+    border-radius: 12px;
+    padding: 20px;
+    width: 100%;
+  }
+  .seasons .seasons__bottom--box {
+    background-color: #262626;
+    border-radius: 12px;
+    padding: 50px;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .seasons .director-box {
+    width: 40%;
+    background-color: #141414;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .seasons .director-box .director-box-right {
+    text-align: start;
+    width: 80%;
+  }
+  .seasons .director-box h3 {
+    color: #fff;
+    font-family: "Manrope";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    margin-left: 20px;
+  }
+  .seasons .images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .seasons .images img {
+    width: 71px;
+    height: 69px;
+  }
+  .seasons .images img:nth-child(8) {
+    display: none;
+  }
+  .seasons .images img:nth-child(7) {
+    display: none;
+  }
+  .seasons .images img:nth-child(6) {
+    display: none;
+  }
+}
+@media only screen and (max-width: 690px) {
+  .seasons p {
+    display: none;
+  }
+  .seasons .seasons__left--box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .seasons .images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .seasons .images img {
+    width: 71px;
+    height: 69px;
+  }
+  .seasons .images img:nth-child(8) {
+    display: none;
+  }
+  .seasons .images img:nth-child(7) {
+    display: none;
+  }
+  .seasons .images img:nth-child(6) {
+    display: none;
+  }
+  .seasons .images img:nth-child(5) {
+    display: none;
+  }
+  .seasons .director-box {
+    width: 100%;
+  }
+}
+.reviews {
+  background-color: #262626;
+  border-radius: 12px;
+  padding: 50px;
+  width: 70%;
+  margin-top: 30px;
+}
+.reviews small {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  color: #999;
+}
+.reviews button {
+  background-color: #141414;
+  padding: 14px 16px;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+}
+.reviews .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reviews .box {
+  background-color: #0f0f0f;
+  padding: 40px;
+  border-radius: 12px;
+  width: 48%;
+}
+.reviews .box .box__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reviews .box h3 {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+}
+.reviews .box .icon {
+  background-color: #262626;
+  padding: 6px 10px;
+  border-radius: 51px;
+  color: #fff;
+}
+.reviews .box .icon .bx {
+  color: red;
+}
+.reviews .box p {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #999;
+  margin-top: 30px;
+}
+.reviews .card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.reviews .bottom {
+  text-align: center;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 880px) {
+  .reviews {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 690px) {
+  .reviews .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .reviews .box {
+    background-color: #0f0f0f;
+    padding: 40px;
+    border-radius: 12px;
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+.today {
+  background-image: url(/assets/image/shows/Background.png);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 80px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.today h2 {
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 72px;
+  color: #fff;
+}
+.today p {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #999;
+}
+.today button {
+  width: 180px;
+  padding: 18px 24px;
+  background-color: #e50000;
+  border-radius: 8px;
+  font-family: "Manrope";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  color: #fff;
+  border: none;
+}
+
+@media only screen and (max-width: 690px) {
+  .today {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .today p {
+    display: none;
+  }
+  .today button {
+    margin-top: 30px;
+  }
+  .today h2 {
+    text-align: center;
+  }
+}
+.header {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header img {
+  width: 199px;
+  height: 60px;
+}
+.header ul {
+  padding: 10px 40px;
+  background-color: black;
+  width: 586px;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  border: 4px solid grey;
+}
+.header a {
+  color: #BFBFBF;
+  font-size: 18px;
+  line-height: 27px;
+}
+.header .active {
+  padding: 14px 24px;
+  background-color: #0F0F0F;
+  border-radius: 8px;
+  color: white;
+}
+.header .bx {
+  transform: scale(1.5);
+  margin-left: 20px;
+  color: white;
+  margin-left: 10px;
+}
+.header .burger {
+  display: none;
+}
+
+@media only screen and (max-width: 880px) {
+  .header .burger {
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  .header ul {
+    display: none;
+  }
+  .header .bx {
+    display: none;
+  }
+}
+.footer {
+  width: 100%;
+  background-color: #0f0f0f;
+  margin-top: 100px;
+  padding: 100px 0px;
+}
+
+.footer__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer__section .center {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer__section .active {
+  font-family: "Manrope";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+}
+.footer__section li {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #999;
+  margin-top: 10px;
+}
+.footer__section span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.footer__section span .icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #141414;
+  border: 1px solid #262626;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__section span .icon .bx {
+  color: white;
+  transform: scale(2);
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  background-color: #262626;
+  margin-top: 100px;
+  border: none;
+  margin-bottom: 30px;
+}
+
+small {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  color: #999;
+}
+
+@media only screen and (max-width: 800px) {
+  .footer__section {
+    flex-direction: column;
+  }
+  .footer__section ul:nth-child(2) {
+    display: block;
+  }
+  .footer__section .center {
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+  .footer__section span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .footer__section span .icon {
+    width: 46px;
+    height: 46px;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #141414;
+    border: 1px solid #262626;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__section span .icon .bx {
+    color: white;
+    transform: scale(1.5);
+  }
 }/*# sourceMappingURL=main.css.map */

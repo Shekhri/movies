@@ -1,0 +1,53 @@
+.today{
+    background-image: url(/assets/image/shows/Background.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 80px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2{
+        font-family: 'Manrope';
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 72px;
+        color: #fff;
+    }
+    p{
+        font-family: 'Manrope';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: #999;
+    }
+    button{
+        width: 180px;
+        padding: 18px 24px;
+        background-color: #e50000;
+        border-radius: 8px;
+        font-family: 'Manrope';
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 27px;
+        color: #fff;
+        border: none;
+    }
+}
+@media only screen and (max-width:690px) {
+    .today{
+        flex-direction: column;
+    justify-content: center;
+
+        p{
+            display: none;
+        }
+        button{
+            margin-top: 30px;
+        }
+        h2{
+            text-align: center;
+        }
+    }
+}

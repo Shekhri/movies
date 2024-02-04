@@ -1,0 +1,97 @@
+.reviews{
+    background-color: #262626;
+    border-radius: 12px;
+    padding: 50px;
+    width: 70%;
+    margin-top: 30px;
+
+small{
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    color: #999;
+}
+button{
+    background-color: #141414;
+    padding: 14px 16px;
+    border-radius: 8px;
+border: none;
+
+color: #fff;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    background-color: #0f0f0f;
+    padding: 40px;
+    border-radius: 12px;
+    width: 48%;
+.box__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h3{
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+}
+.icon{
+    background-color: #262626;
+    padding: 6px 10px;
+    border-radius: 51px;
+    color: #fff;
+
+    .bx{
+        color: red;
+    }
+}
+p{
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #999;
+    margin-top: 30px;
+}
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.bottom{
+    text-align: center;
+    margin-top: 30px;
+}
+}
+@media only screen and (max-width:880px) {
+    .reviews{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:690px) {
+    .reviews{
+        .card{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 30px;
+        }
+        .box{
+            background-color: #0f0f0f;
+            padding: 40px;
+            border-radius: 12px;
+            width: 100%;
+            margin-top: 30px;
+    }
+}
+}
