@@ -12,7 +12,7 @@
 }
 @font-face {
   font-family: "Manrope 500";
-  src: local(), url("../assets/fonts/Manrope/Manrope-VariableFont_wght.ttf") format("woff"), url("../fonts/Manrope/static/Manrope-Medium.ttf") format("wof2f");
+  src: local(), url("../fonts/Manrope/static/Manrope-Medium.ttf") format("woff"), url("../fonts/Manrope/static/Manrope-Medium.ttf") format("wof2f");
 }
 @font-face {
   font-family: "Manrope 400";
@@ -51,19 +51,15 @@ a {
 }
 
 body {
-  background-color: #141414;
+  background-color: rgb(36, 35, 35);
 }
 
 .container {
   width: 100%;
-  max-width: 1600px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 0 10px;
-}
-
-.hero h1 {
-  color: white;
-  font-family: "Manrope 500";
+}/*# sourceMappingURL=main.css.map */nt-family: "Manrope 500";
   font-weight: 500;
   font-size: 38px;
   line-height: 57px;
@@ -487,4 +483,201 @@ body {
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+}
+.hero .hero {
+  display: flex;
+}
+.hero .hero__left {
+  width: 533px;
+  height: 739px;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 50px;
+}
+.hero .hero__left--item {
+  margin-top: 50px;
+  margin-left: 50px;
+  flex-direction: column;
+  padding-left: 0px;
+}
+.hero .hero__left--item-h1 {
+  color: white;
+  width: 533px;
+  margin-left: 0px;
+  font-family: "Manrope 500";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+}
+.hero .hero__left--item-p {
+  color: gray;
+  font-family: "Manrope 500";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-left: 0px;
+}
+.hero .hero__left--item-img {
+  width: 533px;
+  margin-left: 0px;
+}
+.hero .hero__right {
+  width: 1050px;
+  margin-left: 50px;
+  background-color: black;
+  border-radius: 15px;
+}
+.hero .hero__right--name {
+  display: flex;
+}
+.hero .hero__right--name-fname {
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.hero .hero__right--name-lname {
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.hero .hero__right--name-fname-p {
+  color: white;
+  font-family: "Manrope 500";
+  font-weight: 600px;
+  font-size: 18px;
+  line-height: 27px;
+}
+.hero .hero__right--name-fname-input {
+  background-color: #262626;
+  width: 413px;
+  height: 67px;
+  border-radius: 8px;
+  padding: 20px;
+  gap: 77px;
+  font-family: "Manrope 500";
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 16px;
+}
+.hero .hero__right--name-lname-p {
+  color: white;
+  font-family: "Manrope 500";
+  font-weight: 600px;
+  font-size: 18px;
+  line-height: 27px;
+}
+.hero .hero__right--name-lname-input {
+  background-color: #262626;
+  width: 413px;
+  height: 67px;
+  border-radius: 8px;
+  padding: 20px;
+  gap: 77px;
+  font-family: "Manrope 500";
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 16px;
+}
+.hero .hero__right--info {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 50px;
+  align-items: center;
+}
+.hero .hero__right--info-email {
+  margin-right: 50px;
+}
+.hero .hero__right--info-email-p {
+  color: white;
+  font-family: "Manrope 500";
+  font-weight: 600px;
+  font-size: 18px;
+  line-height: 27px;
+}
+.hero .hero__right--info-email-input {
+  background-color: #262626;
+  width: 413px;
+  height: 67px;
+  border-radius: 8px;
+  padding: 20px;
+  gap: 77px;
+  font-family: "Manrope 500";
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 16px;
+}
+.hero .hero__right--info-number {
+  margin-right: 50px;
+}
+.hero .hero__right--info-number-p {
+  color: white;
+  font-family: "Manrope 500";
+  font-weight: 600px;
+  font-size: 18px;
+  line-height: 27px;
+}
+.hero .hero__right--info-number-select {
+  width: 94px;
+  height: 67px;
+  border-radius: 8px;
+  padding: 0px, 12px, 0px, 12px;
+  gap: 6px;
+  margin-top: 16px;
+  margin-right: 10px;
+  background-color: #262626;
+}
+.hero .hero__right--info-number-input {
+  background-color: #262626;
+  color: white;
+  width: 300px;
+  height: 67px;
+  border-radius: 8px;
+  padding: 20px;
+  gap: 77px;
+  font-family: "Manrope 500";
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 16px;
+}
+.hero .hero__right--message-p {
+  color: white;
+  font-family: "Manrope 500";
+  font-weight: 600px;
+  font-size: 18px;
+  line-height: 27px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.hero .hero__right--message-textarea {
+  width: 90%;
+  height: 163px;
+  margin-top: 16px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 8px;
+  background-color: #262626;
+  padding: 20px;
+  color: white;
+}
+.hero .hero__right--bottom {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.hero .hero__right--bottom-button {
+  width: 173px;
+  margin-left: 360px;
+}
+.hero .hero__right--bottom-checkbox {
+  margin-left: 50px;
+  color: #262626;
+  margin-right: 5px;
 }/*# sourceMappingURL=main.css.map */

@@ -9,7 +9,49 @@
 </head>
 <body>
    <div class="container">
-
+    <div class="hero">
+        <div class="hero__left">
+            <div class="hero__left--item">
+                <h1 class="hero__left--item-h1">Welcome to our support page!</h1>
+                <p class="hero__left--item-p">We're here to help you with any problems you may be having with our product.</p>
+                <img src="./assets/image/support/hero.png" class="hero__left--item-img">
+            </div>
+        </div>
+        <div class="hero__right">
+            <form>
+                <div class="hero__right--name">
+                    <div class="hero__right--name-fname">
+                        <p class="hero__right--name-fname-p">First Name</p>
+                        <input type="text" class="hero__right--name-fname-input" placeholder="Enter First Name">
+                    </div>
+                    <div class="hero__right--name-lname">
+                        <p class="hero__right--name-lname-p">Last Name</p>
+                        <input type="text" class="hero__right--name-lname-input" placeholder="Enter Last Name">
+                    </div>
+                </div>
+                <div class="hero__right--info">
+                    <div class="hero__right--info-email">
+                        <p class="hero__right--info-email-p">Email</p>
+                        <input type="email" class="hero__right--info-email-input" placeholder="Enter Email" required>
+                    </div>
+                    <div class="hero__right--info-number">
+                        <p class="hero__right--info-number-p">Phone Number</p>
+                        <select name="" id="" class="hero__right--info-number-select"></select>
+                        <input type="number" class="hero__right--info-number-input" required>
+                    </div>
+                </div>
+                <div class="hero__right--message">
+                    <p class="hero__right--message-p">Message</p>
+                    <textarea required name="" id="" cols="30" rows="10" class="hero__right--message-textarea" placeholder="Enter Your Message"></textarea>
+                </div>
+                <div class="hero__right--bottom">
+                    <input type="checkbox" class="hero__right--bottom-checkbox" required>
+                    <p class="hero__right--bottom-p">I agree with Terms of Use and Privacy Policy</p>
+                    <button type="submit" class="hero__right--bottom-button">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
    </div>
 </body>
 <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
