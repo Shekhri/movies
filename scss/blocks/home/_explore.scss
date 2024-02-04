@@ -46,4 +46,22 @@
         align-items: center;
         width: 1597px;
     }
+   @media only screen and (max-width:1320px) {
+        h2{
+            margin-top: 500px;
+        }
+      ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+           
+    }
+    li{
+        margin-top: 20px;
+    }
+   }
 }
+

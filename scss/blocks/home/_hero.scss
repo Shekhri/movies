@@ -1,12 +1,12 @@
-.hero{
+.hero {
+    background-image: url(/assets/image/home/herobackroundimage.png);
 
-        background-image: url(/assets/image/home/hero\ backround.png);
-        height: 90vh;
-        background-repeat: no-repeat;
-        background-size: cover;
-       
-    
-    h1 {    
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 500px;
+
+    h1 {
         font-family: Manrope;
         font-size: 58px;
         font-weight: 700;
@@ -34,7 +34,7 @@
         height: 64px;
         padding: 18px, 24px, 18px, 24px;
         border-radius: 8px;
-       
+
         font-family: Manrope;
         font-size: 18px;
         font-weight: 600;
@@ -45,12 +45,29 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-left: 600px;
+        margin-left: 500px;
         margin-top: 50px;
         color: white;
     }
     .hero__section {
         padding-top: 550px;
     }
+    @media only screen and (max-width:1320px) {
+        .hero__section{
+            margin-bottom: 500px;
+        }
+        p{
+            overflow: hidden;
+           w
+        }
+        button{
+            text-align: center;
+            align-items: center;
+            position: relative;
+            bottom: 60px;
+            left:-350px ;
+            top: 30px;
+        }
+    }
+    
 }
-
