@@ -1,0 +1,112 @@
+.ask {
+    margin-top: 100px;
+    h2 {
+        color: aliceblue;
+        font-family: Manrope;
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 57px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    button {
+        font-family: Manrope;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: aliceblue;
+        background-color: red;
+        border-radius: 15px;
+        width: 176px;
+        height: 63px;
+        padding-left: 20px;
+        border: none;
+        position: relative;
+        left: 1400px;
+        top: -60px;
+    }
+    .ask__li {
+        width: 758px;
+        height: 175px;
+        padding: 34px;
+        border: 0px, 0px, 1px, 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 25px;
+    }
+    .ask__li--not {
+        border-radius: 25%;
+        width: 50px;
+        height: 50px;
+        background-color: #262626;
+        padding-top: 15px;
+        text-align: center;
+        color: aliceblue;
+    }
+    h4 {
+        font-family: Manrope;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+        padding-left: 30px;
+        padding: 10px;
+    }
+
+    p {
+        font-family: Manrope;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #999999;
+        margin-left: 10px;
+        padding-top: 10px;
+    }
+    li {
+        width: 758px;
+        height: 175px;
+        padding: 34px;
+        border: 0px, 0px, 1px, 0px;
+        display: flex;
+        border-radius: 25px;
+        align-items: center;
+        border: 1px solid red;
+        margin-bottom: 20px;
+    }
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 1596px;
+        height: 556px;
+    }
+    @media only screen and (max-width:1320px) {
+        button {
+            font-family: Manrope;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 27px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: aliceblue;
+            background-color: red;
+            border-radius: 15px;
+            padding-left: 20px;
+            border: none;
+        }
+        ul{
+            width:100%;
+            flex-wrap: wrap;
+            margin-bottom: 1000px;
+        }
+    }
+}

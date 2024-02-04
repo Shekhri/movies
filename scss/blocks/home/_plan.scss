@@ -1,0 +1,117 @@
+.plan {
+    margin-top: 300px;
+    h2 {
+        font-family: Manrope;
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 57px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: aliceblue;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+    p {
+        font-family: Manrope;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        color:#999999;
+        margin-bottom: 20px;
+    }
+    h4 {
+        font-family: Manrope;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: aliceblue;
+        margin-bottom: 20px;
+    }
+    h3 {
+        font-family: Manrope;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: aliceblue;
+        margin-top: 20px;
+    }
+    small {
+        font-family: Manrope;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 13px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #999999;
+        padding-top: 22px;
+        padding-left: 5px;
+    }
+    button {
+        font-family: Manrope;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 196px;
+        height: 63px;
+        padding: 18px, 24px, 18px, 24px;
+        border-radius: 8px;
+        border: 1px;
+        background-color: black;
+        color: aliceblue;
+        text-align: center;
+        
+    }
+    .plan__bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        bottom: -40px;
+        width: 412px;
+    }
+    .active {
+        width: 196px;
+        height: 63px;
+        padding: 18px, 24px, 18px, 24px;
+        border-radius: 8px;
+        background-color: red;
+        color: aliceblue;
+    }
+    li {
+        width: 512px;
+        height: 425px;
+        border-radius: 12px;
+        border: 1px solid #262626;
+        padding: 60px;
+        background-color: #1A1A1A;
+        margin-right: 15px;
+    }
+    .plan__top{
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    @media only screen and (max-width:1320px) {
+      ul{
+        width: 100%;
+        flex-wrap: wrap
+      };
+      li{
+        margin-top: 50px;
+      }
+    }
+}
